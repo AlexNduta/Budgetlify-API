@@ -21,7 +21,7 @@ Dir:
 | User Management |
 | GET | http://[hostname]/Budgetlify/api/v1.0/profile | Get info of an authenticated user |
 | PUT | http://[hostname]/Budgetlify/api/v1.0/profile | update a user |
-
+| Login|
 | PUT | http://[hostname]/Budgetlify/api/v1.0/user | creates a new user |
 | POST | http://[hostname]/Budgetlify/api/v1.0/Login | login a user |
 
