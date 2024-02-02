@@ -10,13 +10,22 @@ Dir:
 |--------| :-------:|--------:|
 | POST | http://[endpoint]/api/v1.0/expense | create a new expense |
 | GET | http://[endpoint]/api/v1.0/expense | get a list of all expenses |
+| GET | http://[endpoint]/api/v1.0/expenses{expense ID} | get a specific expense |
+| PUT | http://[endpoint]/api/v1.0/expenses{expense ID} |  update an existing expense|
+| DELETE | http://[endpoint]/api/v1.0/expenses{expense ID} | delete a specific expense | 
+|   category management |
+| POST | http://[endpoint]/api/v1.0/categories | create categories |
+| GET | http://[endpoint]/api/v1.0/categories | get a list of all categories
+|      Monthly Report |
+| GET | http://[endpoint]/api/v1.0/reports/{year}/{month} | Get reports for a specific month |
+| User Management |
+| GET | http://[endpoint]/api/v1.0/profile | Get info of an authenticated user |
+| PUT | http://[endpoint]/api/v1.0/profile | update a user |
 
+| PUT | http://[endpoint]/api/v1.0/user | creates a new user |
+| POST | http://[endpoint]/api/v1.0/Login | login a user |
 
-|  1 | 2  | 3  | 4  | 5  |
-|---|---|---|---|---|
-|  H | b  | c  | d  | e  |
-|  s |  d |  g |  s | s  |
-|   f|   f|  d |  v | x  |
+   
 `APP`: frontend android app for the user 
         stack:
                 - Android
