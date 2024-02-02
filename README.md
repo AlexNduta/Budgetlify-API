@@ -6,8 +6,8 @@ Dir:
     - Queries  the DB and provides the
 ## Endpoints
     Expense management
-|POST|http://[endpoint]/api/v1.0/expense|create a new expense|
-|GET|http://[endpoint]/api/v1.0/expense|get a list of all expenses|
+| POST | http://[endpoint]/api/v1.0/expense | create a new expense |
+| GET | http://[endpoint]/api/v1.0/expense | get a list of all expenses |
 `APP`: frontend android app for the user 
         stack:
                 - Android
