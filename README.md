@@ -5,7 +5,7 @@ Dir:
 `API`: This is the backend section of the app
     - Queries  the DB and provides the
 ## Endpoints
-    Expense management
+    `Expense management`
 | method | endpoint | purpose |
 |--------| :-------:|--------:|
 | POST | http://[hostname]/Budgetlify/api/v1.0/expense | create a new expense |
@@ -13,15 +13,15 @@ Dir:
 | GET | http://[hostname]/Budgetlify/api/v1.0/expenses{expense ID} | get a specific expense |
 | PUT | http://[hostname]/Budgetlify/api/v1.0/expenses{expense ID} |  update an existing expense|
 | DELETE | http://[hostname]/Budgetlify/api/v1.0/expenses{expense ID} | delete a specific expense | 
-|   category management |
+|   `category management` |
 | POST | http://[hostname]/Budgetlify/api/v1.0/categories | create categories |
 | GET | http://[hostname]/Budgetlify/api/v1.0/categories | get a list of all categories
 |      Monthly Report |
 | GET | http://[hostname]/Budgetlify/api/v1.0/reports/{year}/{month} | Get reports for a specific month |
-| User Management |
+| `User Management` |
 | GET | http://[hostname]/Budgetlify/api/v1.0/profile | Get info of an authenticated user |
 | PUT | http://[hostname]/Budgetlify/api/v1.0/profile | update a user |
-| Login|
+| `Login`|
 | PUT | http://[hostname]/Budgetlify/api/v1.0/user | creates a new user |
 | POST | http://[hostname]/Budgetlify/api/v1.0/Login | login a user |
 
