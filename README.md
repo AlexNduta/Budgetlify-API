@@ -11,11 +11,12 @@ Dir:
 | POST | http://[endpoint]/api/v1.0/expense | create a new expense |
 | GET | http://[endpoint]/api/v1.0/expense | get a list of all expenses |
 
-| POST | http://[endpoint]/api/v1.0/expense | create a new expense |
- 10 |------|------------------------------------|----------------------|
- 11 | GET | http://[endpoint]/api/v1.0/expense | get a list of all expenses |
- 12 |-----|------------------------------------
 
+|  1 | 2  | 3  | 4  | 5  |
+|---|---|---|---|---|
+|  H | b  | c  | d  | e  |
+|  s |  d |  g |  s | s  |
+|   f|   f|  d |  v | x  |
 `APP`: frontend android app for the user 
         stack:
                 - Android
