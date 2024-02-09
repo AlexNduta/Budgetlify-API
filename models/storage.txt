@@ -1,6 +1,45 @@
-[
-        {Rent: 6000,id:1},
-        {food: 4000, id:2},
-        {Misc: 3000, id:3}]
-
+{
+  "expenses": [
+    {
+      "category": "food",
+      "items": [
+        {
+          "date": "1/2/30",
+          "amount": 10000,
+          "id": 1
+        },
+        {
+          "date": "2/2/30",
+          "amount": 2,
+          "id": 1
+        },
+        {
+          "date": "1/2/30",
+          "amount": 3000,
+          "id": 3567
+        }
+      ]
+    },
+    {
+      "category": "Transport",
+      "items": [
+        {
+          "date": "1/2/30",
+          "amount": 100,
+          "id": 100
+        },
+        {
+          "date": "1/2/30",
+          "amount": 240,
+          "id": 34567
+        },
+        {
+          "date": "2/3/30",
+          "amount": 3445,
+          "id": 546
+        }
+      ]
+    }
+  ]
+}
 

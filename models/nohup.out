@@ -1,0 +1,62 @@
+The disableGPU setting is set to undefined
+Not disabling GPU
+Gtk-Message: 16:35:36.107: Failed to load module "xapp-gtk3-module"
+Main: Starting cleanup of stale files
+Main: Cleanup of stale files completed
+Main~createDefaultWorkingDir - Default working dir creation already attempted
+1707485736266 main info "Booting Postman 10.22.0, linux-6.5.0-kali3-amd64 on x64"
+1707485736267 main info "EventBus~initialize - Success"
+1707485736269 main info "Proxy configuration has not been setup"
+1707485736270 main info "CloudProxyManager~init - Success"
+1707485736289 main info "performShellDataMigration: Migration has already been done. Bailing out"
+1707485736296 main info "UpdateHandler~init - Success"
+1707485736298 main info "LeaderSelection: Initialized successfully"
+1707485736299 main info "VersionDependencyService: Initialized successfully"
+1707485736305 main info "LinuxAutoUpdater~Cleanup - Initial cleanup successful"
+[128474:0209/163536.319961:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+1707485736333 main info "GPU detected VID 32902 DID 22807 ACTIVE true"
+1707485736356 main info "shellController~init: Success"
+1707485736363 main info "shellMeta~init: Success"
+1707485736364 main info "partitionMigrationService: State of V7 partition:"
+1707485736364 main info "partitionMigrationService: V7 partitions",[]
+1707485736364 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no partition with scratchpad namespace"
+1707485736365 main info "partitionMigrationService~rectifyNamespaceOfScratchPadPartition: There is no transit partition which could have been used for scratchpad"
+1707485736365 main info "partitionMigrationService~init: Success"
+1707485736377 main info "partitionMigrationService~runV8PartitionsIntegrity: Two way migration~ removing the following partitions from v8",[]
+1707485736382 main info "userPartitionService~getRecentV8UserPartition: recent v8 user context partition ","93ccad61-861a-4926-8c82-d16315d4b0d4"
+1707485736382 main info "userPartitionService~_rectifyTheActivePartitionOfApplication: Setting the active partition to ","93ccad61-861a-4926-8c82-d16315d4b0d4"
+1707485736391 main info "userPartitionService~init: Success"
+1707485736405 main info "userPartitionService: State of v8 partition system:"
+1707485736409 main info "shell~init~getPartitionToLoad: loading active partition"
+1707485736411 main info "userPartitionService: List of partitions:",[{"partitionId":"93ccad61-861a-4926-8c82-d16315d4b0d4","namespace":"users","userId":"28139971","teamId":"0","lastUpdated":"2024-02-09T13:06:05.165Z"},{"partitionId":"a4e84164-27a8-416c-a52a-a4422362f3dd","namespace":"scratchPad","userId":0,"teamId":0,"isDirty":false}]
+1707485736411 main info "userPartitionService: users global meta:",{}
+1707485739312 main info "RuntimeIPCAgent~started: Success"
+1707485739548 main info "Main~getRemoteInitPath:: "
+1707485739842 main info "UpdateHandler~app-update-events - Received event",{"name":"checkForElectronVersionUpdated","namespace":"appUpdate"}
+INTERCEPTOR CONNECTIVITY: Connecting to Interceptor Bridge
+IPCClient ~ WindowHandler: New event is received { type: 'window-opened' }
+1707485739866 main info "windowManager: First requester booted successfully."
+1707485739867 main info "windowManager~restoreWindows: Restoring requester windows"
+1707485739867 main info "Main~AppEvents - Received booted event for process requester.Version 10.22.13 UI Version: 10.22.13-ui-240205-0449 Desktop Platform Version: 10.22.0"
+1707485739991 main info "Main~getRemoteInitPath:: "
+1707485740682 main info "Main~getPlatformLaunchPerfMetrics"
+1707485741733 main info "Main - model-events~user - (user, bootstrapUser) received"
+1707485741734 main info "model-events~user - bootstrapUser received"
+1707485741751 main info "userPartitionService~associateTransitPartition: ",{"partitionId":"93ccad61-861a-4926-8c82-d16315d4b0d4","context":{"namespace":"users","userId":"28139971","teamId":"0"}}
+1707485741774 main info "userPartitionService: State of v8 partition system:"
+1707485741779 main info "userPartitionService: List of partitions:",[{"partitionId":"93ccad61-861a-4926-8c82-d16315d4b0d4","namespace":"users","userId":"28139971","teamId":"0","lastUpdated":"2024-02-09T13:35:41.751Z"},{"partitionId":"a4e84164-27a8-416c-a52a-a4422362f3dd","namespace":"scratchPad","userId":0,"teamId":0,"isDirty":false}]
+1707485741779 main info "userPartitionService: users global meta:",{}
+1707485742131 main info "INTERCEPTOR CONNECTIVITY: Attempting to start websocket server on port 15611"
+1707485757496 main info "sendAnalytics: Error while sending request",{"errno":-104,"code":"ECONNRESET","syscall":"read","name":"Error","message":"read ECONNRESET","stack":"Error: read ECONNRESET\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:211:20)"}
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'blur', windowId: 1 }
+IPCClient ~ WindowHandler: New event is received { type: 'focus', windowId: 1 }
