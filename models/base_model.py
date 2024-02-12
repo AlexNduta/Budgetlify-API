@@ -11,6 +11,7 @@ app = FastAPI()
 
 filename = 'storage.txt'
 
+expense_array = []
 
 def expense_file_reader(filename) -> List[dict]:
     """ Helper function that Reads a file and returns a list of lines """
@@ -26,13 +27,25 @@ def expense_file_reader(filename) -> List[dict]:
 
         return expenses
     except (FileNotFoundError, json.JSONDecodeError):
-        return []
+        return {"message": "This is not an array"}
+
+#def expense_file_writer(expenses: List[dict]):
+ #   """ writes Posted expenses to the storage file"""
+  #  with open(filename, "a") as f:
+#        json.dump(expenses, f, indent =4)
 
 def expense_file_writer(expenses: List[dict]):
-    """ writes Posted expenses to the storage file"""
-    with open(filename, "a") as f:
-        json.dump(expenses, f, indent =4)
+    """ Writes Posted expenses to the storage file"""
+    try:
+        with open(filename, "r") as f:
+            existing_data = json.load(f)
+    except FileNotFoundError:
+        existing_data = []
 
+    updated_data = existing_data + expenses
+
+    with open(filename, "w") as f:
+        json.dump(updated_data, f, indent=4)
 
 
 @app.get("/Budgetlify/expenses")
@@ -52,16 +65,16 @@ def post_expense(new_expense : dict):
                 amount:
                 id: auto provided
     """
-    expenses = expense_file_reader(filename)
+   # expenses = expense_file_reader(filename)
     try:
         #  add Id if its not provided
         if 'id' not in new_expense:
             new_expense['id'] = randrange(0, 1200000)
+
+
         # append the new expense to the existing file
-        expenses.append({**new_expense})
-        print(type(new_expense))
-        expense_file_writer(new_expense)
-        print(type(expenses))
-        return new_expense
+        expense_array.append(new_expense)
+        expense_file_writer(expense_array)
+        return {"Message": "Expense added successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail="An error occured : {}".format(e))

@@ -1,14 +1,218 @@
-[{
-    "category": "Misc",
-    "date": "1/3/30",
-    "amount": 100,
-    "descripption": "Airtime",
-    "id": 774186
-}]
-{
-    "Category": "Food",
-    "date": "10/2/2024",
-    "amount": 50,
-    "description": "Bought a mango",
-    "id": 301401
-}
+[
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast"
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 6711
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 47056
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 583514
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 1077746
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 335179
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 369369
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 6711
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 47056
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 583514
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 1077746
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 335179
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 369369
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 100815
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 6711
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 47056
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 583514
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 1077746
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 335179
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 369369
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 100815
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 419907
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 6711
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 47056
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 583514
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 1077746
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 335179
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 369369
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 100815
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 419907
+    },
+    {
+        "Category": "Food",
+        "date": "10/2/2024",
+        "amount": 35,
+        "description": "Bread for breakfast",
+        "id": 662155
+    }
+]
