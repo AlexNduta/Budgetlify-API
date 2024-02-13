@@ -6,213 +6,87 @@
         "description": "Bread for breakfast"
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 6711
+        "category": "Fare",
+        "date": "13/2/30",
+        "amount": 100,
+        "descripption": "Kroad to kimbo",
+        "id": 970460
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 47056
+        "category": "Fare",
+        "date": "13/2/30",
+        "amount": 100,
+        "descripption": "Kroad to kimbo",
+        "id": 970460
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 583514
+        "category": "Fare",
+        "date": "13/2/30",
+        "amount": 50,
+        "descripption": "tao to karen",
+        "id": 656155
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 1077746
+        "category": "Fare",
+        "date": "13/2/30",
+        "amount": 100,
+        "descripption": "Kroad to kimbo",
+        "id": 970460
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 335179
+        "category": "Fare",
+        "date": "13/2/30",
+        "amount": 50,
+        "descripption": "tao to karen",
+        "id": 656155
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 369369
+        "category": "Food",
+        "date": "13/2/30",
+        "amount": 20,
+        "descripption": "Breadko: Mandazi",
+        "id": 130110
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 6711
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 100,
+        "description": "Credit",
+        "Id": 12
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 47056
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 100,
+        "description": "Credit",
+        "Id": 12
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 583514
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 100,
+        "description": "Credit",
+        "Id": 12
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 1077746
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 100,
+        "description": "Credit",
+        "Id": 12
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 335179
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 200,
+        "description": "Swimming",
+        "id": 2184006581977
     },
     {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 369369
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 100815
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 6711
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 47056
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 583514
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 1077746
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 335179
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 369369
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 100815
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 419907
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 6711
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 47056
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 583514
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 1077746
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 335179
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 369369
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 100815
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 419907
-    },
-    {
-        "Category": "Food",
-        "date": "10/2/2024",
-        "amount": 35,
-        "description": "Bread for breakfast",
-        "id": 662155
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 150,
+        "description": "Nduthi on my way home",
+        "id": 723453
     }
 ]
