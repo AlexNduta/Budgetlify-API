@@ -22,7 +22,7 @@ def expense_file_reader(filename) -> List[dict]:
             raise ValueError("Inavalid JSON format. Top-level list must be either a list or an object")
         if isinstance(data, dict):
             expenses = data.get("expenses", [])
-        else: 
+        else:
             expenses = data
 
         return expenses
@@ -48,7 +48,6 @@ def expense_file_writer(expenses: List[dict]):
 def get_expenses():
     """ get a list of all our expenses saved someehere in the file/DB"""
     expenses = expense_file_reader(filename)
-
     return expenses
 
 
@@ -58,6 +57,7 @@ class Post(BaseModel):
     date: str
     amount: int
     description: str
+
 @app.post("/Budgetlify/expenses")
 def post_expense(new_expense: Post):
     """ Creates a post and sends data to the URL provided 
@@ -76,7 +76,27 @@ def post_expense(new_expense: Post):
          #append the new expense sent by the user  to the existing file and pass it to the function to write it to a file
          expense_array.append(post_dict)
          expense_file_writer(expense_array)
-         print(new_expense)
          return {"Message": "Expense added successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail="An error occured : {}".format(e))
+
+
+
+def expense_finder(id: int):
+    """Gets a list of expenses from from the function call"""
+    expenses = expense_file_reader(filename)
+    for expense in expenses:
+        if expense['id'] == id:
+            return expense
+    return None
+
+
+@app.get("/Budgetlify/expenses/{id}")
+def get_single_item(id:int):
+    """ gets a single item from the list of expenses with the specified ID"""
+    found_expense = expense_finder(int(id))
+    print(type(id))
+    if found_expense:
+        return found_expense
+    else:
+        raise HTTPException(status_code=404, detail="The item with the ID {} is not found".format(id) )
