@@ -9,23 +9,9 @@
     {
         "category": "Fare",
         "date": "13/2/30",
-        "amount": 50,
-        "description": "tao to karen",
-        "id": 656155
-    },
-    {
-        "category": "Fare",
-        "date": "13/2/30",
         "amount": 100,
         "description": "Kroad to kimbo",
         "id": 970460
-    },
-    {
-        "category": "Fare",
-        "date": "13/2/30",
-        "amount": 50,
-        "description": "tao to karen",
-        "id": 656155
     },
     {
         "category": "fare",
@@ -33,5 +19,12 @@
         "amount": 100,
         "description": "Kroad to tao",
         "id": 242334
+    },
+    {
+        "category": "Misc",
+        "date": "13/2/30",
+        "amount": 150,
+        "description": "Nduthi on my way home",
+        "id": 679116
     }
 ]

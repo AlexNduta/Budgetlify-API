@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, status
 import json
 from pydantic import BaseModel, ValidationError
 from random import randrange
@@ -58,7 +58,7 @@ class Post(BaseModel):
     amount: int
     description: str
 
-@app.post("/Budgetlify/expenses")
+@app.post("/Budgetlify/expenses", status_code=status.HTTP_201_CREATED)
 def post_expense(new_expense: Post):
     """ Creates a post and sends data to the URL provided 
         - new_post:
@@ -95,8 +95,36 @@ def expense_finder(id: int):
 def get_single_item(id:int):
     """ gets a single item from the list of expenses with the specified ID"""
     found_expense = expense_finder(int(id))
-    print(type(id))
     if found_expense:
         return found_expense
     else:
         raise HTTPException(status_code=404, detail="The item with the ID {} is not found".format(id) )
+
+def index_finder(id:int):
+    """ returns an index of the item from the list"""
+    # call the function that returns a list
+    list_of_expenses = expense_file_reader(filename)
+    for index, element in enumerate(list_of_expenses):
+        if element['id'] == id:
+            return index
+
+@app.delete("/Budgetlify/expenses/{id}")
+def delete_a_single_item(id:int):
+    """
+    deletes an item specified by ID from the list
+    """
+    # get the list of items
+    list_of_expenses = expense_file_reader(filename)
+    # get the index of the item
+    index_found = index_finder(int(id))
+    #if item exists delete the item in specified index then open file and save changes to the file
+    if index_found is not None:
+        del list_of_expenses[index_found]
+        with open(filename, "w") as f:
+            json.dump(list_of_expenses, f, indent=4)
+        return {"message":"Item deleted successfully"}
+    else:
+        raise HTTPException(status_code=404, detail="Expense not found")
+
+    return {"message":"Item deleted successfully"}
+
