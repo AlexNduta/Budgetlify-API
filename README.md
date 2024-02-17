@@ -3,7 +3,8 @@
 
 Dir:
 `API`: This is the backend section of the app
-    - Queries  the DB and provides the
+    - Queries the DB(currently using file storage) for data
+    - Currently only accepts `Category`, `Date`, `Amount` and `Description`. The ID is auto generated
 ## Endpoints
     `Expense management`
 | method | endpoint | purpose |
