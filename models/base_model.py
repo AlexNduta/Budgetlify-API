@@ -83,7 +83,9 @@ def post_expense(new_expense: Post):
 
 
 def expense_finder(id: int):
-    """Gets a list of expenses from from the function call"""
+    """Gets a list of expenses from from the function call
+        - Used by the HTTP get method
+    """
     expenses = expense_file_reader(filename)
     for expense in expenses:
         if expense['id'] == id:
@@ -101,7 +103,9 @@ def get_single_item(id:int):
         raise HTTPException(status_code=404, detail="The item with the ID {} is not found".format(id) )
 
 def index_finder(id:int):
-    """ returns an index of the item from the list"""
+    """ returns an index of the item from the list. 
+        used by the delete HTTP method
+    """
     # call the function that returns a list
     list_of_expenses = expense_file_reader(filename)
     for index, element in enumerate(list_of_expenses):
@@ -127,4 +131,18 @@ def delete_a_single_item(id:int):
         raise HTTPException(status_code=404, detail="Expense not found")
 
     return {"message":"Item deleted successfully"}
+
+@app.put("/Budgetlify/expenses/{id}")
+def update_expense(id:int, post:Post):
+    found_index = index_finder(id) # get the index of the item
+    list_of_expenses = expense_file_reader(filename) # get the list of expenses in the file
+    if found_index is not None:
+        post_dict = post.dict() # convert input to a dictionary
+        post_dict['id'] = id # make sure the id remains as the passed id
+        list_of_expenses[found_index] = post_dict # put the dictionary in the index specified
+        updated_expense = expense_file_writer(list_of_expenses) # write to the file by passing the updated list
+        return {"message": "expense updated successfuly"}
+
+    else:
+        raise HTTPException(status_code=404, detail="expense with ID: {} does not exist")
 

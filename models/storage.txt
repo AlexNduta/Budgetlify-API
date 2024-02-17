@@ -7,13 +7,6 @@
         "id": 970460
     },
     {
-        "category": "Fare",
-        "date": "13/2/30",
-        "amount": 100,
-        "description": "Kroad to kimbo",
-        "id": 970460
-    },
-    {
         "category": "fare",
         "date": "14/2/2025",
         "amount": 100,
@@ -21,10 +14,17 @@
         "id": 242334
     },
     {
-        "category": "Misc",
+        "category": "Fare",
         "date": "13/2/30",
-        "amount": 150,
-        "description": "Nduthi on my way home",
-        "id": 679116
+        "amount": 100,
+        "description": "Kroad to kimbo",
+        "id": 970460
+    },
+    {
+        "category": "Misc",
+        "date": "16/2/2024",
+        "amount": 20,
+        "description": "Muturaa",
+        "id": 242334
     }
 ]
